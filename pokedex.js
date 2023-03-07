@@ -51,7 +51,7 @@ buttonPrev.addEventListener('click', () => {
     }
   });
   
-  buttonNext.addEventListener('click', () => {
+  buttonNext.addEventListener('click, () => {
     searchPokemon += 1;
     renderPokemon(searchPokemon);
   });
